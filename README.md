@@ -1,4 +1,5 @@
 # FaunaDB query helpers
+This is a collection of helper methods for querying Fauna Database so we don't have to write FQL ourselves
 
 ## Installation
 ``` 
