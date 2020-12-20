@@ -1,6 +1,6 @@
 {
   "name": "fauna-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpers for interacting with FaunaDB",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
