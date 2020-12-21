@@ -14,7 +14,7 @@ export class FaunaHelper {
     }
     /**
      * Query a paginated list of documents from a given collection
-     * @param collectionName name of the collection to query documents from
+     * @param collectionName name of the collection from which you wish to query documents
      * @param pageSize pagination page size
      */
     public async getDocumentsFromCollection(collectionName: string, pageSize: number = 10) {
@@ -27,7 +27,7 @@ export class FaunaHelper {
     }
     /**
      * Query a single document by its ref ID
-     * @param collectionName name of the collection to query the document from
+     * @param collectionName name of the collection from which you wish to query document
      * @param refId reference ID of the document
      */
     public async getDocumentByRefId(collectionName: string, refId: string) {
